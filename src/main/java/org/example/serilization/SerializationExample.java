@@ -4,8 +4,10 @@ import java.io.*;
 
 // Step 1: Class must implement Serializable
 class Student implements Serializable {
-    private static final long serialVersionUID = 1L; // version control
-
+    @Serial
+    private static final long serialVersionUID = 7593943404154257588L;
+    //  private static final long serialVersionUID = 1L; // version control
+    
 
     private int id;
     private transient String name;
